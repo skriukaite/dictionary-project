@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          Dictionary 📖 project on the way...{" "}
-        </header>
+        <header className="App-header">Dictionary 📖 project</header>
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Sandra Kriukaitė</footer>
+        <footer className="text-center">
+          <small>Coded by Sandra Kriukaitė</small>
+        </footer>
       </div>
     </div>
   );
