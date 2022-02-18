@@ -7,13 +7,15 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary 📖 project</header>
-        <main>
-          <Dictionary />
-        </main>
-        <footer className="text-center">
-          <small>Coded by Sandra Kriukaitė</small>
-        </footer>
+        <div className="App-background">
+          <header className="App-header">DIC•TIO•NA•RY</header>
+          <main>
+            <Dictionary />
+          </main>
+          <footer className="text-center">
+            <small>Coded by Sandra Kriukaitė</small>
+          </footer>
+        </div>
       </div>
     </div>
   );
