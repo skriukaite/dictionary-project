@@ -10,7 +10,7 @@ function App() {
         <div className="App-background">
           <header className="App-header">DIC•TIO•NA•RY</header>
           <main>
-            <Dictionary />
+            <Dictionary defaultKeyword="book" />
           </main>
           <footer className="text-center">
             <small>Coded by Sandra Kriukaitė</small>
