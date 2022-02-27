@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -6,12 +7,13 @@ export default function Photos(props) {
       <div className="Photos">
         {props.photos.map(function (photo, index) {
           return (
-            <img
-              src={photo.src.landscape}
-              alt="pexels"
-              key={index}
-              className="img-fluid"
-            />
+            <div className="text-center" key={index}>
+              <img
+                src={photo.src.landscape}
+                alt="pexels"
+                className="img-fluid"
+              />
+            </div>
           );
         })}
       </div>
