@@ -1,29 +1,40 @@
 .App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.App-background {
   background-color: white;
   background-image: url("Background-vertical.png");
   background-position: bottom 0px right 35px;
   background-repeat: no-repeat;
   background-size: 65%;
   min-height: 100%;
-  min-width: 1024px;
   position: absolute;
 }
 
 .App .container {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
-.App-header {
-  display: flex;
-  flex-direction: column;
-  font-size: 8vh;
+.App header {
+  font-size: 6vw;
   font-family: "Patrick Hand", cursive;
   font-weight: bolder;
-  transform: rotate(-90deg);
+  text-align: right;
+}
+.App footer {
+  padding-left: 235px;
+  padding-top: 90px;
+
+  color: grey;
 }
 
-.App footer {
-  padding-left: 300px;
-  color: grey;
+.App .GitHub {
+  text-decoration: none;
+  color: #91d4ea;
+  font-weight: bolder;
 }
