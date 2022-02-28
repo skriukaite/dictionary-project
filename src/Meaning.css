@@ -1,2 +1,5 @@
-.Meaning .definition {
+.Meaning .example {
+  font-style: italic;
+  color: grey;
+  display: inline-block;
 }

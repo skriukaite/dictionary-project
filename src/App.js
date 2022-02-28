@@ -12,7 +12,7 @@ function App() {
           <main>
             <Dictionary defaultKeyword="book" />
           </main>
-          <footer className="text-center">
+          <footer className="text-left">
             <small>Coded by Sandra Kriukaitė</small>
           </footer>
         </div>
